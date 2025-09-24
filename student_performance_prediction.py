@@ -7,7 +7,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # Connect to the MongoDB cluster to store the inputs and the prediction
-uri = "mongodb+srv://Anurag:Anurag07@cluster0.wmspabk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+uri = "mongodb+srv://anurag:07121998@cluster0.ugo9l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['Student']     # Create a new database
 collection = db['Student_Performance_Prediction']     # Create a new collection in the database
